@@ -1,3 +1,14 @@
 def my_select(collection)
- # your code here!
+  new_array = []
+  i = 0 
+  while i < collection.length
+    new_array << yield(collection[i])
+    i += 1 
+  end 
+  
 end
+
+# { |i| puts i * 2 }
+# i is the yielded value and 
+# puts i * 2 is what we want to do
+#   with the yielded value!

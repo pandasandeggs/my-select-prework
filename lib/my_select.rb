@@ -7,7 +7,7 @@ def my_select(collection)
     end
     i += 1 
   end 
-  
+  new_array
 end
 
 # { |i| puts i * 2 }
